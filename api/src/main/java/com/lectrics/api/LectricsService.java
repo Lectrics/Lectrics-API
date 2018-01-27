@@ -3,7 +3,7 @@ package com.lectrics.api;
 import java.awt.image.BufferedImage;
 
 public interface LectricsService {
-  LectureToken startLecutre();
+  LectureToken startLecture();
   ImageProcessingToken processImage(BufferedImage image);
   void closeLecture();
 }
